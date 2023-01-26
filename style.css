@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+    
+
+.item{
+    width: 150px;
+    height: 150px;
+    background: url(1.2\ flex.jpg);
+    border: 2px solid powderblue;
+    font-size: 25px;
+    color: aliceblue;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.box{
+    width: 1000px;
+    height: 1000px;
+    border: 5px solid palevioletred;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    background: url(2img.jpg) no-repeat center/cover;
+    
+}
+
+body{
+    background: aquamarine;
+}
+
+.item2{
+    align-self: center;
+}
+
+.item1{
+   align-self: flex-end;
+}
+
+
+    
